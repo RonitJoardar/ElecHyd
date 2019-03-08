@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="201327" started-at="2017-10-05T12:33:48Z" finished-at="2017-10-05T12:37:10Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="201327" started-at="2017-10-05T12:33:48Z" finished-at="2017-10-05T12:37:10Z">
+      <class name="com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb]" name="setup" is-config="true" duration-ms="18292" started-at="2017-10-05T18:03:48Z" finished-at="2017-10-05T18:04:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="TC000_login()[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb]" name="TC000_login" duration-ms="37511" started-at="2017-10-05T18:04:07Z" finished-at="2017-10-05T18:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC000_login -->
+        <test-method status="PASS" signature="tear(org.testng.ITestResult)[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb]" name="tear" is-config="true" duration-ms="1" started-at="2017-10-05T18:04:44Z" finished-at="2017-10-05T18:04:44Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC000_login status=SUCCESS method=TS2_OpportunitiesElectrical.TC000_login()[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method status="PASS" signature="TC001_addNewAccount()[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb]" name="TC001_addNewAccount" duration-ms="145500" started-at="2017-10-05T18:04:44Z" depends-on-methods="com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical.TC000_login" finished-at="2017-10-05T18:07:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC001_addNewAccount -->
+        <test-method status="PASS" signature="tear(org.testng.ITestResult)[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb]" name="tear" is-config="true" duration-ms="1" started-at="2017-10-05T18:07:10Z" finished-at="2017-10-05T18:07:10Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC001_addNewAccount status=SUCCESS method=TS2_OpportunitiesElectrical.TC001_addNewAccount()[pri:0, instance:com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical@627551fb] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- com.eaton.electricalhydraulic.testscripts.TS2_OpportunitiesElectrical -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
